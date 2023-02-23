@@ -964,6 +964,17 @@ footer .copyright{
     #newletter .form{
         width: 70%;
     }
+
+    /*Contact page*/
+
+    #form-details{
+        padding: 40px;
+    }
+
+    #form-details form{
+        width: 50%;
+
+    }
 }
 
 @media (max-width:477px){
@@ -1103,6 +1114,36 @@ footer .copyright{
     flex-direction: column;
     width: 100%;
 }
+
+/* Contact Us Page*/
+
+#contact-details{
+    flex-direction: column;
+} 
+
+#contact-details .details{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#contact-details .map{
+    width: 100%;
+}
+
+#form-details{
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+}
+
+#form-details form{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
 
