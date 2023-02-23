@@ -659,7 +659,7 @@ footer .copyright{
 
 #blog .blog-img{
     width: 60%;
-    margin-right: 40%;
+    margin-right: 10%;
 }
 
 #blog img{
@@ -893,4 +893,37 @@ footer .copyright{
     #prodetails .single-pro-details{
         width: 100%;
     }
+
+    /*Blog Page*/
+
+    #blog .blog-box{
+        
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-end; */
+    }
+
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+
+    
+#blog .blog-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#blog .blog-img{
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#blog .blog-details{
+    width: 100%;
+}
+
+
 }
